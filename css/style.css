@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Tahoma");
+
+* {
+    font-family: "Tahoma", Verdana, Segoe, sans-serif;
+}
+
+body {
+    background-color:blanchedalmond;
+}
+
+.rtlclass {
+    direction: rtl;
+}
+
+.ltrclass {
+    direction: ltr;
+}
+
+.description {
+    padding: 10px 10px;
+}
+
+.title {
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.title::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 80px;
+	height: 5px;
+	background: #F9B500;
+	z-index: 1;
+}
+
+.title::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+}
+
+.title2 {
+	position: relative;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.title2::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 80px;
+	height: 5px;
+	background: #F9B500;
+	z-index: 1;
+}
+
+.title2::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #ccc;
+}
